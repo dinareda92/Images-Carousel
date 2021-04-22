@@ -13,6 +13,10 @@
 		EF4F0A1026319AA700F8388B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F0A0E26319AA700F8388B /* Main.storyboard */; };
 		EF4F0A1226319AAA00F8388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4F0A1126319AAA00F8388B /* Assets.xcassets */; };
 		EF4F0A1526319AAB00F8388B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F0A1326319AAB00F8388B /* LaunchScreen.storyboard */; };
+		EF4F0A1F26319DD400F8388B /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F0A1D26319DD400F8388B /* ImageTableViewCell.swift */; };
+		EF4F0A2026319DD400F8388B /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4F0A1E26319DD400F8388B /* ImageTableViewCell.xib */; };
+		EF4F0A2326319E9900F8388B /* ImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4F0A2226319E9900F8388B /* ImageView.xib */; };
+		EF4F0A2626319F6A00F8388B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F0A2526319F6A00F8388B /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EF4F0A1126319AAA00F8388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4F0A1426319AAB00F8388B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4F0A1626319AAB00F8388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4F0A1D26319DD400F8388B /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		EF4F0A1E26319DD400F8388B /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		EF4F0A2226319E9900F8388B /* ImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageView.xib; sourceTree = "<group>"; };
+		EF4F0A2526319F6A00F8388B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				EF4F0A1126319AAA00F8388B /* Assets.xcassets */,
 				EF4F0A1326319AAB00F8388B /* LaunchScreen.storyboard */,
 				EF4F0A1626319AAB00F8388B /* Info.plist */,
+				EF4F0A1D26319DD400F8388B /* ImageTableViewCell.swift */,
+				EF4F0A1E26319DD400F8388B /* ImageTableViewCell.xib */,
+				EF4F0A2226319E9900F8388B /* ImageView.xib */,
+				EF4F0A2526319F6A00F8388B /* ImageViewController.swift */,
 			);
 			path = "Images Carousel";
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4F0A1526319AAB00F8388B /* LaunchScreen.storyboard in Resources */,
+				EF4F0A2326319E9900F8388B /* ImageView.xib in Resources */,
+				EF4F0A2026319DD400F8388B /* ImageTableViewCell.xib in Resources */,
 				EF4F0A1226319AAA00F8388B /* Assets.xcassets in Resources */,
 				EF4F0A1026319AA700F8388B /* Main.storyboard in Resources */,
 			);
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4F0A0D26319AA700F8388B /* ViewController.swift in Sources */,
+				EF4F0A1F26319DD400F8388B /* ImageTableViewCell.swift in Sources */,
+				EF4F0A2626319F6A00F8388B /* ImageViewController.swift in Sources */,
 				EF4F0A0926319AA700F8388B /* AppDelegate.swift in Sources */,
 				EF4F0A0B26319AA700F8388B /* SceneDelegate.swift in Sources */,
 			);
